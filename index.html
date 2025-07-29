@@ -34,12 +34,17 @@
       <p>Selamat anniversary yaa, Sayangkuu💐</p>
       <p>Semoga ini selalu jadi awal baru buat kita berdua dan semoga kita bisa terus tumbuh meski jalannya pelan, asal tetap bareng.</p>
       <h3>🤍I LOVE YOU MORE SAYANG🤍</h3>
-    </div>
+
+  <!-- HTML -->
+<audio id="bgm" loop>
   <source src="berdua_bersama.mp3" type="audio/mpeg">
-  <audio autoplay loop>
-  <p style="font-size:12px;">(Klik layar jika musik belum terdengar 🎵)</p>
-  </audio>
-  </div>
+</audio>
+
+<!-- di dalam script -->
+document.getElementById('envelope').addEventListener('click', function() {
+  document.getElementById('bgm').play();
+});
+
 
   <script src="script.js"></script>
 </body>
