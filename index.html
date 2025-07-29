@@ -23,21 +23,20 @@
       <img src="foto5.jpg">
       <img src="foto6.jpg">
     </div>
-   <div style="text-align: center; font-family: 'Comic Sans MS', cursive; margin-top: 30px;">
-  <p style="font-size: 20px; color: #d16ba5;">
-    🎶 Now Playing: <strong>Berdua Bersama</strong> - Jaz
-  </p>
 
-  <button onclick="document.getElementById('bgm').play()" style="background:#fddde6; padding:12px 30px; border:none; border-radius:25px; font-size:18px; color:#fff; background-color:#ff8ebf; cursor:pointer;">
-    💗 Play Music
-  </button>
-
-  <audio id="bgm" loop>
-    <source src="berdua_bersama.mp3" type="audio/mpeg" />
-    Your browser does not support the audio element.
-  </audio>
-</div>
-
+    <!-- 🎵 Music Player (di bawah galeri) -->
+    <div class="music-player" style="text-align: center; margin: 30px 0;">
+      <p style="font-weight: bold; color: #e87aa4;">🎵 Now Playing: Jaz – Berdua Bersama</p>
+      <button onclick="document.getElementById('bgm').play()" style="background:#ffb6c1; color:white; padding:10px 25px; border:none; border-radius:25px; font-size:16px; cursor:pointer;">
+        💗 Play Music
+      </button>
+      <audio id="bgm" loop>
+        <source src="berdua_bersama.mp3" type="audio/mpeg" />
+        Browser kamu tidak mendukung audio.
+      </audio>
+    </div>
+    <!-- End Music -->
+    
     <div class="message">
       <h3>Happy Anniversary Sayangg💕</h3>
       <p>Hari ini, hari yang spesial untuk kita. Terima kasih sudah bertahan sejauh ini. Terima kasih sudah jadi seseorang yang terus aku percaya, bahkan ketika kadang kamu bingung dengan diri sendiri. Aku tau kita beda cara mencintai, tapi aku tetap bersyukur Allah pilih kamu buat aku💌</p>
